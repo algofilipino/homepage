@@ -1,17 +1,19 @@
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import "tailwindcss/tailwind.css"
 
 function App() {
   return (
-  <script>
-    <div className="App">
-      <header className="App-header">
-        <div class= "navbar"> 
-         <div class="Banner" src='assets'>
-         </div>
-        </div>
-      </header>
-    </div>
-    </script>
+    <>
+      <Router>
+        <Navbar/>
+        <Switch>
+          <Route path='/' exact />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
