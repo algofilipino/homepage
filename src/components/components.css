@@ -1,5 +1,15 @@
+.font-josefin {
+  font-family: 'Josefin Sans', sans-serif;
+}
 
-  
+.font-open {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-z-index {
+  z-index: -1;
+}
+
   .nav-links:hover {
     color: #FEE266;
     transform: scale(1.1);

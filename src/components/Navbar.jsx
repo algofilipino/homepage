@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./components.css";
 import logoTitle from "../assets/algo-filipino-logo.png";
 
 function Navbar() {
@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar bg-transparent h-16 text-body flex justify-center items-center sticky z-10 pt-16 pl-20 pr-20">
+      <nav className="navbar bg-transparent h-16 text-btn flex justify-center items-center sticky z-10 pt-16 pl-20 pr-20 font-josefin">
         <div className="navbar-container flex justify-center items-center w-11/12">
           <Link
             to="/"
@@ -19,7 +19,7 @@ function Navbar() {
           >
             <img src={logoTitle} alt="Algo Logo" />
           </Link>
-          <h1 className="">algo filipino</h1>
+          <h1 className="text-p">algo filipino</h1>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
@@ -27,13 +27,13 @@ function Navbar() {
             className={
               click
                 ? "nav-menu active"
-                : "nav-menu auto-rows-auto text-center flex justify-end w-10/12"
+                : "nav-menu auto-rows-auto text-center flex justify-end w-10/12 tracking-widest"
             }
           >
             <li className="nav-item">
               <Link
                 to="/"
-                className="nav-links text-black flex items-center pl-6 pr-6 font-josefin  "
+                className="nav-links text-black flex items-center pl-6 pr-6 text-p"
                 onClick={closeMobileMenu}
               >
                 HOME
@@ -42,7 +42,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 to="/learn"
-                className="nav-links text-black flex items-center pl-6 pr-6 font-josefin  "
+                className="nav-links text-black flex items-center pl-6 pr-6"
                 onClick={closeMobileMenu}
               >
                 ABOUT
@@ -51,7 +51,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 to="/translate"
-                className="nav-links text-black flex items-center pl-6 pr-6 font-josefin  "
+                className="nav-links text-black flex items-center pl-6 pr-6"
                 onClick={closeMobileMenu}
               >
                 EVENTS
@@ -60,7 +60,7 @@ function Navbar() {
             <li className="nav-item">
               <Link
                 to="/about"
-                className="nav-links text-black flex items-center pl-6 pr-6 font-josefin  "
+                className="nav-links text-black flex items-center pl-6 pr-6"
                 onClick={closeMobileMenu}
               >
                 CONTACT
