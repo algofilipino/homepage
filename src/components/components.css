@@ -1,22 +1,17 @@
-.font-josefin {
+/* .font-josefin {
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .font-open {
   font-family: 'Open Sans', sans-serif;
-}
+} */
 
 .bg-z-index {
   z-index: -1;
 }
-
-  .nav-links:hover {
-    color: #FEE266;
-    transform: scale(1.1);
-  }
   
   .fa-bars {
-    color: #fff;
+    color: #000000;
     aligny-self: center;
   }
   
@@ -84,7 +79,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: #000000;
       font-size: 2rem;
     }
   
