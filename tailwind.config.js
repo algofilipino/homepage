@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         transparent: "transparent",
         white: "#FFFFFF",
-        black: "#000000",
+        gray: "#333333",
 
         red: {
           100: "#FF5757",
@@ -23,13 +23,13 @@ module.exports = {
       },
       fontFamily: {
         josefin: ['"Josefin Sans"'],
-        open: ['"Open Sans"'],
+        open: ['"Open Sans"'], 
       },
       fontSize: {
-        h1: "144px",
-        h2: "96px",
-        h3: "72px",
-        h4: "36px",
+        h1: "96px",
+        h2: "72px",
+        h3: "36px",
+        h4: "28px",
         name: "20px",
         p: "18px",
         btn: "14px",

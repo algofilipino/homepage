@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./components.css";
 import background from "../assets/background-img-1.png";
 import headerImage from "../assets/header-img.png";
+import Button from "./Button";
 
 function Header() {
   return (
@@ -13,18 +14,23 @@ function Header() {
         alt=""
       />
       <div className="grid grid-flow-col auto-cols-max">
-        <div className="grid grid-flow-row auto-rows-max md:auto-rows-min">
+        <div className="grid grid-flow-row auto-rows-max md:auto-rows-min ml-36 mt-36">
           <div>
-            <p className="">Innovate</p>
+            <h1 className="text-h1 font-josefin font-bold leading-tight">
+              Wika at <br /> Teknolohiya
+            </h1>
           </div>
           <div>
-            <p className="text-p">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.{" "}
+            <p className="text-p font-open font-semibold">
+              Amet minim mollit non deserunt ullamco est sit
+              <br />
+              aliqua dolor do amet sint. Velit officia
+              <br />
+              consequat duis enim velit mollit.{" "}
             </p>
           </div>
           <div>
-            <button>JOIN ALGO FILIPINO</button>
+            <Button className="py-7" />
           </div>
         </div>
         <div>
