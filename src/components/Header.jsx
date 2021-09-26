@@ -1,40 +1,38 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./components.css";
-import background from "../assets/background-img-1.png";
+import background from "../assets/background-img-2.png";
 import headerImage from "../assets/header-img.png";
+import homepageBackground from "../assets/homepage-background.png";
 import Button from "./Button";
 
 function Header() {
   return (
     <>
       <img
-        src={background}
+        src={homepageBackground}
         className="bg-z-index absolute top-0 left-0 w-screen"
         alt=""
       />
-      <div className="grid grid-flow-col auto-cols-max">
-        <div className="grid grid-flow-row auto-rows-max md:auto-rows-min ml-36 mt-36">
-          <div>
-            <h1 className="text-h1 font-josefin font-bold leading-tight">
-              Wika at <br /> Teknolohiya
-            </h1>
-          </div>
-          <div>
-            <p className="text-p font-open font-semibold">
-              Amet minim mollit non deserunt ullamco est sit
-              <br />
-              aliqua dolor do amet sint. Velit officia
-              <br />
-              consequat duis enim velit mollit.{" "}
-            </p>
-          </div>
-          <div>
-            <Button className="py-7" />
-          </div>
+      <div className="flex h-screen">
+        <div className="grid grid-flow-row auto-rows-max md:auto-rows-min pb-28 flex content-center justify-center w-2/5">
+          <h1 className="text-h1 font-josefin font-bold leading-tight">
+            Wika at <br /> Teknolohiya
+          </h1>
+
+          <p className="text-p font-open font-semibold">
+            Ang Algo Filipino ay isang non-profit na organisasyon na naglalayong
+            mapalago at mapagyaman ang wikang Filipino sa larangan ng
+            teknolohiya.
+            {/* <br />
+              Naniniwala ang aming organisasyon sa pagpapahalaga at pagiingat sa
+              sariling wika upang hindi itong tuluyang mawala. */}
+          </p>
+
+          <Button />
         </div>
-        <div>
-          <img src={headerImage} className="scale-50" alt="" />
+        <div className="w-3/5 flex flex-wrap content-center pb-20">
+          <img src={headerImage} className="" alt="" />
         </div>
       </div>
     </>

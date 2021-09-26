@@ -26,7 +26,7 @@ module.exports = {
         open: ['"Open Sans"'], 
       },
       fontSize: {
-        h1: "96px",
+        h1: "80px",
         h2: "72px",
         h3: "36px",
         h4: "28px",
