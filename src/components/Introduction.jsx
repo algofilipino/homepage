@@ -1,6 +1,5 @@
-import bodyImage1 from "../assets/body-img-1.jpg";
-import bodyImage2 from "../assets/body-img-2.jpg";
-import background from "../assets/background-img-1.png";
+import bodyImage1 from "../assets/body-img-1.png";
+import bodyImage2 from "../assets/body-img-2.png";
 import "./components.css";
 import Spacer from "./Spacer.jsx";
 

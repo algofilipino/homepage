@@ -20,9 +20,7 @@
 
 // export default Testimonials;
 
-import imageQuote1 from "../assets/body-img-1.jpg";
 import "./components.css";
-import background from "../assets/background-img-1.png";
 import member1 from "../assets/member-quote-1.png";
 import member2 from "../assets/member-quote-2.png";
 
@@ -30,10 +28,6 @@ function Testimonials() {
   return (
     <>
       <div>
-        <img
-          src={background}
-          className="bg-z-index absolute top-0 left-0 w-screen"
-        ></img>
         <div>
           <div className="grid grid-flow-row auto-rows-max md:auto-rows-min ml-36 mt-36">
             <div className="grid grid-flow-col auto-cols-max">

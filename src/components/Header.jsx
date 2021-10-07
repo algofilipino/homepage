@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./components.css";
-import background from "../assets/background-img-2.png";
 import headerImage from "../assets/header-img.png";
 import homepageBackground from "../assets/homepage-background.png";
 import Button from "./Button";
