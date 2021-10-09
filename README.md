@@ -8,7 +8,7 @@ The official website of Algo Filipino
 
 Contributions are welcome, create a pull request to this repo and I will review your code. Please consider submitting your pull request to the ```dev``` branch. Thank you!
 
-Read the project's [contributing guide](./contributing.md) for more info.
+Read the project's [contributing guide](./CONTRIBUTING.md) for more info.
 
 ## 💬 Discussions
 
