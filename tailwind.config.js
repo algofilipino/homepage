@@ -7,6 +7,7 @@ module.exports = {
         transparent: "transparent",
         white: "#FFFFFF",
         gray: "#333333",
+        light: "#F0F0F0",
 
         red: {
           100: "#FF5757",
@@ -23,7 +24,7 @@ module.exports = {
       },
       fontFamily: {
         josefin: ['"Josefin Sans"'],
-        open: ['"Open Sans"'], 
+        open: ['"Open Sans"'],
       },
       fontSize: {
         h1: "80px",
