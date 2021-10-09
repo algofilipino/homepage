@@ -1,6 +1,6 @@
 # Algo Filipino Website
 
-[![maintained by](https://img.shields.io/badge/maintained%20by-Algo%20Filipino-blue.svg?longCache=true&style=flat-square)](https://algofilipino.com) [![Release](https://img.shields.io/github/release/wareneutron/covid19-tracker-cli.svg?style=flat-square)](https://github.com/wareneutron/covid19-tracker-cli/releases) [![Star](https://img.shields.io/github/stars/wareneutron/covid19-tracker-cli.svg?style=flat-square)](https://github.com/wareneutron/covid19-tracker-cli/stargazers) [![License](https://img.shields.io/github/license/wareneutron/covid19-tracker-cli.svg?style=flat-square)](https://github.com/wareneutron/covid19-tracker-cli/blob/main/LICENSE)
+[![maintained by](https://img.shields.io/badge/maintained%20by-Algo%20Filipino-blue.svg?longCache=true&style=flat-square)](https://algofilipino.com) [![Release](https://img.shields.io/github/release/algofilipino/website.svg?style=flat-square)](https://github.com/algofilipino/website/releases) [![Star](https://img.shields.io/github/stars/algofilipino/website.svg?style=flat-square)](https://github.com/algofilipino/website/stargazers) [![License](https://img.shields.io/github/license/algofilipino/website.svg?style=flat-square)](https://github.com/algofilipino/website/blob/main/LICENSE)
 
 The official website of Algo Filipino
 
