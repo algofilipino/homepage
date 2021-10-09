@@ -11,12 +11,12 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar bg-transparent text-btn flex justify-center items-center z-10 mt-16 font-josefin">
-        <div className="navbar-container flex justify-between items-center w-10/12 mx-auto fixed">
+      <nav className="navbar bg-light text-btn flex items-center z-10 pt-2 pb-2 pl-10 pr-10 font-josefin w-full mx-auto fixed">
+        <div className="navbar-container flex justify-between items-center w-full">
           <div className="flex">
             <Link
               to="/"
-              className="navbar-logo w-20 justify-self-start flex items-center ml-6 mr-6 mb-2"
+              className="navbar-logo w-20 flex items-center ml-3 mr-3 mb-2"
             >
               <img src={logoTitle} alt="Algo Logo" />
             </Link>
@@ -32,13 +32,13 @@ function Navbar() {
               className={
                 click
                   ? "nav-menu active"
-                  : "nav-menu auto-rows-auto text-center flex justify-end tracking-widest"
+                  : "nav-menu auto-rows-auto text-center flex tracking-widest"
               }
             >
               <li className="nav-item">
                 <Link
                   to="/"
-                  className="nav-links flex items-center px-5 transition text-black hover:text-yellow-100 hover:"
+                  className="nav-links bg-gray-500 flex items-center px-5 transition text-black hover:text-yellow-100 hover:"
                   onClick={closeMobileMenu}
                 >
                   HOME

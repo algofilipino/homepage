@@ -13,7 +13,7 @@ function Header() {
         className="bg-z-index absolute top-0 left-0 w-screen"
         alt=""
       />
-      <div className="flex h-screen">
+      <div className="flex h-screen pt-28">
         <div className="grid grid-flow-row auto-rows-max md:auto-rows-min pb-28 flex content-center justify-center w-2/5">
           <h1 className="text-h1 font-josefin font-bold leading-tight">
             Wika at <br /> Teknolohiya
@@ -23,9 +23,6 @@ function Header() {
             Ang Algo Filipino ay isang non-profit na organisasyon na naglalayong
             mapalago at mapagyaman ang wikang Filipino sa larangan ng
             teknolohiya.
-            {/* <br />
-              Naniniwala ang aming organisasyon sa pagpapahalaga at pagiingat sa
-              sariling wika upang hindi itong tuluyang mawala. */}
           </p>
 
           <Button />
