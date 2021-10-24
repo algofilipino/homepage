@@ -1,11 +1,3 @@
-/* .font-josefin {
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.font-open {
-  font-family: 'Open Sans', sans-serif;
-} */
-
 .bg-z-index {
   z-index: -1;
 }
@@ -15,26 +7,18 @@
     aligny-self: center;
   }
   
-  .nav-links-mobile {
-    display: none;
-  }
-  
-  .menu-icon {
-    display: none;
-  }
-  
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;
     };
   
     .nav-menu {
-      display: flex;
+      /* display: flex;
       flex-direction: column;
       width: 100%;
       height: 90vh;
+      top: 64px; */
       position: absolute;
-      top: 64px;
       left: -100%;
       opacity: 1;
       transition: all 0.5s ease;
@@ -46,13 +30,6 @@
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;
-    }
-  
-    .nav-links {
-      text-align: center;
-      padding: 2rem;
-      width: 100%;
-      display: table;
     }
   
     .nav-links:hover {

@@ -20,7 +20,7 @@ function Navbar() {
             >
               <img src={logoTitle} alt="Algo Logo" />
             </Link>
-            <h1 className="text-name w-4/12b flex items-center">
+            <h1 className="hidden sm:flex text-name w-4/12b items-center">
               algo filipino
             </h1>
             <div className="menu-icon" onClick={handleClick}>
@@ -32,13 +32,13 @@ function Navbar() {
               className={
                 click
                   ? "nav-menu active"
-                  : "nav-menu auto-rows-auto text-center flex tracking-widest"
+                  : "hidden nav-menu auto-rows-auto text-center sm:flex tracking-widest "
               }
             >
               <li className="nav-item">
                 <Link
                   to="/"
-                  className="nav-links bg-gray-500 flex items-center px-5 transition text-black hover:text-yellow-100 hover:"
+                  className="nav-links bg-gray-500 flex items-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
                   HOME
@@ -47,7 +47,7 @@ function Navbar() {
               <li className="nav-item">
                 <Link
                   to="/learn"
-                  className="nav-links flex items-center px-5 transition text-black hover:text-yellow-100 hover:"
+                  className="nav-links flex items-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
                   ABOUT
@@ -56,7 +56,7 @@ function Navbar() {
               <li className="nav-item">
                 <Link
                   to="/translate"
-                  className="nav-links flex items-center px-5 transition text-black hover:text-yellow-100 hover:"
+                  className="nav-links flex items-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
                   EVENTS
@@ -65,7 +65,7 @@ function Navbar() {
               <li className="nav-item">
                 <Link
                   to="/about"
-                  className="nav-links flex items-center px-5 transition text-black hover:text-yellow-100 hover:"
+                  className="nav-links flex items-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
                   CONTACT
