@@ -1,4 +1,4 @@
-# Algo Filipino Website
+# Algo Filipino - Website
 
 [![maintained by](https://img.shields.io/badge/maintained%20by-Algo%20Filipino-blue.svg?longCache=true&style=flat-square)](https://algofilipino.com) [![Release](https://img.shields.io/github/release/algofilipino/website.svg?style=flat-square)](https://github.com/algofilipino/website/releases) [![Star](https://img.shields.io/github/stars/algofilipino/website.svg?style=flat-square)](https://github.com/algofilipino/website/stargazers) [![License](https://img.shields.io/github/license/algofilipino/website.svg?style=flat-square)](https://github.com/algofilipino/website/blob/main/LICENSE)
 
@@ -22,7 +22,7 @@ If you need help please let us know by [creating an issue here](https://github.c
 
 Join to our growing tech community and get the latest updates!
 
-(discord banner here).
+[![community](https://discordapp.com/api/guilds/785823868668739604/widget.png?style=banner2)](https://discord.gg/SKcRb4pfna)
 
 ## 📋 Code of Conduct
 
