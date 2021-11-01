@@ -14,8 +14,8 @@ function Header() {
         alt=""
       />
       <div className="flex h-screen pt-28">
-        <div className="grid grid-flow-row auto-rows-max md:auto-rows-min pb-28 flex content-center justify-center w-2/5">
-          <h1 className="text-h1 font-josefin font-bold leading-tight">
+        <div className="grid grid-flow-row auto-rows-max md:auto-rows-min pb-28 flex content-center justify-center w-full md:w-2/5">
+          <h1 className="text-h2 md:text-h1 font-josefin font-bold leading-tight">
             Wika at <br /> Teknolohiya
           </h1>
 
@@ -25,10 +25,10 @@ function Header() {
             teknolohiya.
           </p>
 
-          <Button />
+          <Button label="SUMALI SA ALGO FILIPINO" />
         </div>
-        <div className="w-3/5 flex flex-wrap content-center pb-20">
-          <img src={headerImage} className="" alt="" />
+        <div className="w-3/5 hidden md:flex flex-wrap content-center pb-20">
+          <img src={headerImage} alt="" />
         </div>
       </div>
     </>

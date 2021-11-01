@@ -30,7 +30,7 @@ function Testimonials() {
       <div>
         <div>
           <div className="grid grid-flow-row auto-rows-max md:auto-rows-min mt-36">
-            <div className="grid grid-flow-col auto-cols-full">
+            <div className="grid gri-flow-row md:grid-flow-col auto-cols-full">
               <img
                 src={member1}
                 className="transform w-1/2 flex justify-self-center"
@@ -47,7 +47,7 @@ function Testimonials() {
               </div>
               <img
                 src={member2}
-                className="transform w-1/2 flex justify-self-center"
+                className="transform w-1/2 flex justify-self-center mt-10 md:mt-0"
               />
               <div className="grid grid-flow-row auto-rows-max md:auto-rows-min flex justify-center">
                 <p className="text-p italic">
@@ -56,8 +56,8 @@ function Testimonials() {
                   egestas natoque ultrices imperdiet <br />
                   urna at integer porttitor.
                 </p>
-                <p className="text-name font-bold my-1">John Jherlet Hollero</p>
-                <p className="text-btn">Founder and President</p>
+                <p className="text-name font-bold my-1">Waren Gonzaga</p>
+                <p className="text-btn">Executive Director</p>
               </div>
             </div>
           </div>

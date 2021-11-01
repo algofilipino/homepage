@@ -6,16 +6,18 @@ import "./App.css";
 import "tailwindcss/tailwind.css"
 import Introduction from "./components/Introduction"; // Add This
 import Testimonials from "./components/Testimonials"; // Add This
+import JoinUs from "./components/JoinUs"; // Add This
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
-        <div className="px-36">
+        <div className="px-6 md:px-36">
           <Header />
           <Introduction />
           <Testimonials />
+          <JoinUs />
         </div>
         <Switch>
           <Route path="/" exact />
