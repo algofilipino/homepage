@@ -23,11 +23,8 @@ function Navbar() {
             <h1 className="hidden sm:flex text-name w-4/12b items-center">
               algo filipino
             </h1>
-            <div className="menu-icon" onClick={handleClick}>
-              <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
-            </div>
           </div>
-          <div>
+          <div style={{ marginLeft:"auto"}}>
             <ul
               className={
                 click
@@ -73,6 +70,9 @@ function Navbar() {
               </li>
             </ul>
           </div>
+          <div className="menu-icon" style={{margin:"0 30px"}} onClick={handleClick}>
+              <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+            </div>
         </div>
       </nav>
     </>
