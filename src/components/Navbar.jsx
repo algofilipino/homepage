@@ -11,8 +11,8 @@ function Navbar() {
 
   return (
     <>
-      <nav className="navbar bg-light text-btn flex items-center z-10 pt-2 pb-2 pl-10 pr-10 font-josefin w-full mx-auto fixed">
-        <div className="navbar-container flex justify-between items-center w-full">
+      <nav className="navbar bg-light text-btn flex items-center z-10 font-josefin h-20 lg:h-16 w-screen fixed">
+        <div className="navbar-container flex justify-between items-center w-full lg:px-36">
           <div className="flex">
             <Link
               to="/"
@@ -20,10 +20,10 @@ function Navbar() {
             >
               <img src={logoTitle} alt="Algo Logo" />
             </Link>
-            <h1 className="hidden sm:flex text-name w-4/12b items-center">
+            <h1 className="hidden lg:flex text-name w-4/12b items-center">
               algo filipino
             </h1>
-            <div className="menu-icon" onClick={handleClick}>
+            <div className="menu-icon lg:hidden" onClick={handleClick}>
               <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
             </div>
           </div>
@@ -31,41 +31,41 @@ function Navbar() {
             <ul
               className={
                 click
-                  ? "nav-menu active"
-                  : "hidden nav-menu auto-rows-auto text-center sm:flex tracking-widest "
+                  ? "nav-menu active overflow-visible w-screen active:h-screen text-name drop-shadow flex flex-col mt-96 "
+                  : "hidden nav-menu auto-rows-auto text-center lg:flex tracking-widest"
               }
             >
-              <li className="nav-item">
+              <li className="nav-item flex justify-center h-20 hover:content-center">
                 <Link
                   to="/"
-                  className="nav-links bg-gray-500 flex items-center px-5 transition text-black hover:text-yellow-100"
+                  className="nav-links bg-gray-500 flex items-center justify-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
                   HOME
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item  flex justify-center h-20 hover:text-center">
                 <Link
                   to="/learn"
-                  className="nav-links flex items-center px-5 transition text-black hover:text-yellow-100"
+                  className="nav-links flex items-center justify-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
                   ABOUT
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item  flex justify-center h-20 hover:text-center">
                 <Link
                   to="/translate"
-                  className="nav-links flex items-center px-5 transition text-black hover:text-yellow-100"
+                  className="nav-links flex items-center justify-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
                   EVENTS
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item  flex justify-center h-20 hover:text-center">
                 <Link
                   to="/about"
-                  className="nav-links flex items-center px-5 transition text-black hover:text-yellow-100"
+                  className="nav-links flex items-center justify-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
                   CONTACT
