@@ -27,7 +27,7 @@ function Navbar() {
               <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
             </div>
           </div>
-          <div style={{ marginLeft:"auto"}}>
+          <div>
             <ul
               className={
                 click
@@ -37,7 +37,7 @@ function Navbar() {
             >
               <li className="nav-item flex justify-center h-20 hover:content-center">
                 <Link
-                  to="/"
+                  to="/website"
                   className="nav-links bg-gray-500 flex items-center justify-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
@@ -73,9 +73,6 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <div className="menu-icon" style={{margin:"0 30px"}} onClick={handleClick}>
-              <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
-            </div>
         </div>
       </nav>
     </>
