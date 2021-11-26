@@ -29,24 +29,36 @@ function Testimonials() {
     <>
       <div>
         <div>
-          <div className="grid grid-flow-row auto-rows-max md:auto-rows-min ml-36 mt-36">
-            <div className="grid grid-flow-col auto-cols-max">
-              <img src={member1} className="transform scale-50" />
-              <p className="italic items-center justify-center flex">
-                Lorem ipsum dolor sit amet, <br />
-                consectetur adipiscing elit. Odio sed <br />
-                egestas natoque ultrices imperdiet <br />
-                urna at integer porttitor. <br />
-                John Jherlet Hollero <br /> Founder and President
-              </p>
-              <img src={member2} className="transform scale-50" />
-              <p className="italic items-center justify-center flex">
-                Lorem ipsum dolor sit amet, <br />
-                consectetur adipiscing elit. Odio sed <br />
-                egestas natoque ultrices imperdiet <br />
-                urna at integer porttitor. <br />
-                John Jherlet Hollero <br /> Founder and President
-              </p>
+          <div className="grid grid-flow-row auto-rows-max lg:auto-rows-min mt-36">
+            <div className="grid grid-flow-row lg:grid-flow-col auto-cols-full">
+              <img
+                src={member1}
+                className="transform w-1/2 flex justify-self-center"
+              />
+              <div className="grid grid-flow-row auto-rows-max lg:auto-rows-min flex justify-center">
+                <p className="text-p italic">
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetur adipiscing elit. Odio sed <br />
+                  egestas natoque ultrices imperdiet <br />
+                  urna at integer porttitor.
+                </p>
+                <p className="text-name font-bold my-1">John Jherlet Hollero</p>
+                <p className="text-btn">Founder and President</p>
+              </div>
+              <img
+                src={member2}
+                className="transform w-1/2 flex justify-self-center mt-10 lg:mt-0"
+              />
+              <div className="grid grid-flow-row auto-rows-max lg:auto-rows-min flex justify-center">
+                <p className="text-p italic">
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetur adipiscing elit. Odio sed <br />
+                  egestas natoque ultrices imperdiet <br />
+                  urna at integer porttitor.
+                </p>
+                <p className="text-name font-bold my-1">Waren Gonzaga</p>
+                <p className="text-btn">Executive Director</p>
+              </div>
             </div>
           </div>
         </div>
