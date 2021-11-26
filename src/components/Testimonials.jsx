@@ -29,13 +29,13 @@ function Testimonials() {
     <>
       <div>
         <div>
-          <div className="grid grid-flow-row auto-rows-max md:auto-rows-min mt-36">
-            <div className="grid gri-flow-row md:grid-flow-col auto-cols-full">
+          <div className="grid grid-flow-row auto-rows-max lg:auto-rows-min mt-36">
+            <div className="grid grid-flow-row lg:grid-flow-col auto-cols-full">
               <img
                 src={member1}
                 className="transform w-1/2 flex justify-self-center"
               />
-              <div className="grid grid-flow-row auto-rows-max md:auto-rows-min flex justify-center">
+              <div className="grid grid-flow-row auto-rows-max lg:auto-rows-min flex justify-center">
                 <p className="text-p italic">
                   Lorem ipsum dolor sit amet, <br />
                   consectetur adipiscing elit. Odio sed <br />
@@ -47,9 +47,9 @@ function Testimonials() {
               </div>
               <img
                 src={member2}
-                className="transform w-1/2 flex justify-self-center mt-10 md:mt-0"
+                className="transform w-1/2 flex justify-self-center mt-10 lg:mt-0"
               />
-              <div className="grid grid-flow-row auto-rows-max md:auto-rows-min flex justify-center">
+              <div className="grid grid-flow-row auto-rows-max lg:auto-rows-min flex justify-center">
                 <p className="text-p italic">
                   Lorem ipsum dolor sit amet, <br />
                   consectetur adipiscing elit. Odio sed <br />
