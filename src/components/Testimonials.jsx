@@ -51,10 +51,7 @@ function Testimonials() {
               />
               <div className="grid grid-flow-row auto-rows-max lg:auto-rows-min flex justify-center">
                 <p className="text-p italic">
-                  Lorem ipsum dolor sit amet, <br />
-                  consectetur adipiscing elit. Odio sed <br />
-                  egestas natoque ultrices imperdiet <br />
-                  urna at integer porttitor.
+                Masaya akong maging parte ng organisasyon dahil mahal ko ang aking Wika at Teknolohiya. Handa akong ituro at ipasa ang aking kaalaman sa susunod na henerasyon.
                 </p>
                 <p className="text-name font-bold my-1">Waren Gonzaga</p>
                 <p className="text-btn">Executive Director</p>
