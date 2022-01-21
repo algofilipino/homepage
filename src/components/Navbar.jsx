@@ -46,7 +46,7 @@ function Navbar() {
               </li>
               <li className="nav-item  flex justify-center h-20 hover:text-center">
                 <Link
-                  to="/learn"
+                  to="/about"
                   className="nav-links flex items-center justify-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
@@ -55,7 +55,7 @@ function Navbar() {
               </li>
               <li className="nav-item  flex justify-center h-20 hover:text-center">
                 <Link
-                  to="/translate"
+                  to="/events"
                   className="nav-links flex items-center justify-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
@@ -64,7 +64,7 @@ function Navbar() {
               </li>
               <li className="nav-item  flex justify-center h-20 hover:text-center">
                 <Link
-                  to="/about"
+                  to="/contact"
                   className="nav-links flex items-center justify-center px-5 transition text-black hover:text-yellow-100"
                   onClick={closeMobileMenu}
                 >
