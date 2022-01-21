@@ -1,7 +1,7 @@
 {
   "homepage": "http://algofilipino.com",
-  "name": "algo-filipino-website",
-  "version": "0.1.0",
+  "name": "algofilipino-homepage",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.2.0",
