@@ -1,8 +1,8 @@
-# Algo Filipino - Website
+# Algo Filipino - Official Website
 
 [![maintained by](https://img.shields.io/badge/maintained%20by-Algo%20Filipino-blue.svg?longCache=true&style=flat-square)](https://algofilipino.com) [![Release](https://img.shields.io/github/release/algofilipino/website.svg?style=flat-square)](https://github.com/algofilipino/website/releases) [![Star](https://img.shields.io/github/stars/algofilipino/website.svg?style=flat-square)](https://github.com/algofilipino/website/stargazers) [![License](https://img.shields.io/github/license/algofilipino/website.svg?style=flat-square)](https://github.com/algofilipino/website/blob/main/LICENSE)
 
-The official website of Algo Filipino
+The official website of Algo Filipino Non-Profit Organization.
 
 ## 🎯 Contributing
 
@@ -22,11 +22,11 @@ If you need help please let us know by [creating an issue here](https://github.c
 
 Join to our growing tech community and get the latest updates!
 
-[![community](https://discordapp.com/api/guilds/785823868668739604/widget.png?style=banner2)](https://discord.gg/SKcRb4pfna)
+[![community](https://discordapp.com/api/guilds/785823868668739604/widget.png?style=banner2)](https://algofilipino.com/discord)
 
 ## 📋 Code of Conduct
 
-Read the project's [code of conduct](./code_of_conduct.md).
+Read the project's [code of conduct](./CODE_OF_CONDUCT.md).
 
 ## 📃 License
 
