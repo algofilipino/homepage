@@ -40,7 +40,7 @@
       z-index: 1;
     }
   
-    .nav-links:hover {
+    nav .nav-links:hover {
       background-color: #5271FF;
       color: #fff;
       border-radius: 0;
