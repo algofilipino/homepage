@@ -1,7 +1,6 @@
 import bodyImage1 from "../assets/body-img-1.png";
 import bodyImage2 from "../assets/body-img-2.png";
 import "./components.css";
-import Spacer from "./Spacer.jsx";
 
 function Introduction() {
   return (
@@ -12,7 +11,7 @@ function Introduction() {
             Learn <br /> Build <br /> Innovate
           </h3>
           <div className="grid grid-flow-row auto-rows-max md:auto-rows-min">
-            <img src={bodyImage1} />
+            <img src={bodyImage1} alt="Wika at Teknolohiya" />
             <p className="text-justify pt-10 text-p">
               Ang Algo Filipino ay itinatag ni John Jherlet Hollero noong
               Setyembre 27, 2020 sa edad na labing - siyam na taong gulang. Ito
@@ -32,7 +31,7 @@ function Introduction() {
       <div className="grid grid-flow-row auto-rows-max md:auto-rows-min mt-24 md:mt-36">
         <div className="grid grid-flow-col auto-cols-full">
           <div className="grid grid-flow-row auto-rows-max md:auto-rows-min">
-            <img src={bodyImage2} />
+            <img src={bodyImage2} alt="Algo Filipino Tambayan" />
             <p className="text-justify pt-10 text-p">
               Ang Algo Filipino Tambayan ay isang programa sa Algo Filipino na
               binubuo ng mga kabataan na iisa ang adhikain pagdating sa Wika at

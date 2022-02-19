@@ -1,5 +1,4 @@
 import Button from "./Button";
-import Spacer from "./Spacer";
 
 function JoinUs() {
   return (

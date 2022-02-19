@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 import "./components.css";
 import headerImage from "../assets/header-img.png";
 import homepageBackground from "../assets/homepage-background.png";

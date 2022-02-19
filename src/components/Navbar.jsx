@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./components.css";
 import logoTitle from "../assets/algo-filipino-logo.png";

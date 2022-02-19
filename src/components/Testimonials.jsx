@@ -34,6 +34,7 @@ function Testimonials() {
               <img
                 src={member1}
                 className="transform w-1/2 flex justify-self-center"
+                alt="John Jherlet Hollero"
               />
               <div className="grid grid-flow-row auto-rows-max lg:auto-rows-min flex justify-center">
                 <p className="text-p italic">
@@ -48,10 +49,13 @@ function Testimonials() {
               <img
                 src={member2}
                 className="transform w-1/2 flex justify-self-center mt-10 lg:mt-0"
+                alt="Waren Gonzaga"
               />
               <div className="grid grid-flow-row auto-rows-max lg:auto-rows-min flex justify-center">
                 <p className="text-p italic">
-                Masaya akong maging parte ng organisasyon dahil mahal ko ang aking Wika at Teknolohiya. Handa akong ituro at ipasa ang aking kaalaman sa susunod na henerasyon.
+                  Masaya akong maging parte ng organisasyon dahil mahal ko ang
+                  aking Wika at Teknolohiya. Handa akong ituro at ipasa ang
+                  aking kaalaman sa susunod na henerasyon.
                 </p>
                 <p className="text-name font-bold my-1">Waren Gonzaga</p>
                 <p className="text-btn">Executive Director</p>

@@ -43,22 +43,39 @@ function Footer() {
       </div>
       <div className="self-center">
         <div className="flex justify-center">
-          <a href="https://www.facebook.com/AlgoFilipino2020" target="_blank">
+          <a
+            href="https://www.facebook.com/AlgoFilipino2020"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={iconFB} className="px-2" alt="" />
           </a>
-          <a href="https://twitter.com/Algo_Filipino" target="_blank">
+          <a
+            href="https://twitter.com/Algo_Filipino"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={iconTW} className="px-2" alt="" />
           </a>
-          <a href="https://www.instagram.com/algofilipino/" target="_blank">
+          <a
+            href="https://www.instagram.com/algofilipino/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={iconIG} className="px-2" alt="" />
           </a>
           <a
             href="https://www.linkedin.com/company/algofilipino/"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={iconIN} className="px-2" alt="" />
           </a>
-          <a href="mailto:kumusta@algofilipino.com" target="_blank">
+          <a
+            href="mailto:kumusta@algofilipino.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img src={iconEmail} className="px-2" alt="" />
           </a>
         </div>
