@@ -8,9 +8,8 @@ function JoinUs() {
           Join Algo Filipino Community Now!
         </h3>
         <p className="text-p py-4">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
+        Naniniwala ang aming organisasyon sa pagpapahalaga at pag-iingat sa sariling wika upang hindi ito tuluyang mamatay at mawala.<br/>
+        Sumasang-ayon ka rin ba sa layuning mapaugnay ang teknolohiya at ang wikang Filipino? Ano pa ba ang hinihintay mo? Magboluntaryo na at maging kasapi na sa Algo Filipino! 
         </p>
         <div className="flex flex-col lg:flex-row justify-center w-full">
           <div className="px-4">

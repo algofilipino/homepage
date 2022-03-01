@@ -23,19 +23,19 @@ function Footer() {
           HOME
         </Link>
         <Link
-          to="/learn"
+          to="/about"
           className="nav-links flex px-5 transition font-josefin hover:text-yellow-100"
         >
           ABOUT
         </Link>
         <Link
-          to="/translate"
+          to="/events"
           className="nav-links flex px-5 transition font-josefin hover:text-yellow-100"
         >
           EVENTS
         </Link>
         <Link
-          to="/about"
+          to="/contact"
           className="nav-links flex px-5 transition font-josefin hover:text-yellow-100"
         >
           CONTACT
@@ -44,28 +44,28 @@ function Footer() {
       <div className="self-center">
         <div className="flex justify-center">
           <a
-            href="https://www.facebook.com/AlgoFilipino2020"
+            href="https://facebook.com/algofilipino"
             target="_blank"
             rel="noreferrer"
           >
             <img src={iconFB} className="px-2" alt="" />
           </a>
           <a
-            href="https://twitter.com/Algo_Filipino"
+            href="https://twitter.com/algo_filipino"
             target="_blank"
             rel="noreferrer"
           >
             <img src={iconTW} className="px-2" alt="" />
           </a>
           <a
-            href="https://www.instagram.com/algofilipino/"
+            href="https://instagram.com/algofilipino/"
             target="_blank"
             rel="noreferrer"
           >
             <img src={iconIG} className="px-2" alt="" />
           </a>
           <a
-            href="https://www.linkedin.com/company/algofilipino/"
+            href="https://linkedin.com/company/algofilipino/"
             target="_blank"
             rel="noreferrer"
           >
@@ -82,7 +82,7 @@ function Footer() {
 
         <div>
           <h1 className="pt-6 text-center lg:flex text-btn justify-end font-open">
-            Developed by Algo Filipino
+            💻💖🔥 by Algo Filipino Technologies
           </h1>
         </div>
       </div>
