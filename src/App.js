@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "tailwindcss/tailwind.css"
 import Introduction from "./components/Introduction";
@@ -22,9 +22,9 @@ function App() {
         </div>
         <Footer />
 
-        <Switch>
-          <Route path="/" exact />
-        </Switch>
+        <Routes>
+          <Route path="/" />
+        </Routes>
       </Router>
     </>
   );

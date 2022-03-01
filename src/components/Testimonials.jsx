@@ -38,13 +38,10 @@ function Testimonials() {
               />
               <div className="grid grid-flow-row auto-rows-max lg:auto-rows-min flex justify-center">
                 <p className="text-p italic">
-                  Lorem ipsum dolor sit amet, <br />
-                  consectetur adipiscing elit. Odio sed <br />
-                  egestas natoque ultrices imperdiet <br />
-                  urna at integer porttitor.
+                  Sa mga naiwan at patuloy na sumusuporta sa adbokasiya ng organisasyon, ako ay nagpapasalamat ng lubos at nasasabik sa mga susunod pang hakbang at kaganapan na maaring ihandog ng organisasyon para sa mga kabataan at mga Pilipinong naniniwala sa kalakasan ng wika sa pagyaman ng kultura, nasyonalismo at karunungan.
                 </p>
                 <p className="text-name font-bold my-1">John Jherlet Hollero</p>
-                <p className="text-btn">Founder and President</p>
+                <p className="text-btn">Founder</p>
               </div>
               <img
                 src={member2}
@@ -53,9 +50,7 @@ function Testimonials() {
               />
               <div className="grid grid-flow-row auto-rows-max lg:auto-rows-min flex justify-center">
                 <p className="text-p italic">
-                  Masaya akong maging parte ng organisasyon dahil mahal ko ang
-                  aking Wika at Teknolohiya. Handa akong ituro at ipasa ang
-                  aking kaalaman sa susunod na henerasyon.
+                  Ako ay nagagalak na maging parte ng organisasyon, naniniwala akong maipapalaganap pa organisasyon ang wika at teknolohiya sa mas marami pang Pilipino. Handa akong ibabahagi ang aking kaalaman at karanasan sa teknnolohiya sa mga susunod na henerasyon.
                 </p>
                 <p className="text-name font-bold my-1">Waren Gonzaga</p>
                 <p className="text-btn">Executive Director</p>
