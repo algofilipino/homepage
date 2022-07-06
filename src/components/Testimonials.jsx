@@ -53,7 +53,7 @@ function Testimonials() {
                   Ako ay nagagalak na maging parte ng organisasyon, naniniwala akong maipapalaganap pa organisasyon ang wika at teknolohiya sa mas marami pang Pilipino. Handa akong ibabahagi ang aking kaalaman at karanasan sa teknnolohiya sa mga susunod na henerasyon.
                 </p>
                 <p className="text-name font-bold my-1">Waren Gonzaga</p>
-                <p className="text-btn">Executive Director</p>
+                <p className="text-btn">President</p>
               </div>
             </div>
           </div>
